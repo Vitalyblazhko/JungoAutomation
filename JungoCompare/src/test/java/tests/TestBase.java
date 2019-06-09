@@ -121,7 +121,7 @@ public class TestBase{
 
             for (int i = 0; i < quantityOfDirectories; i++) {
                 if (directories[i].contains("Jungo")) {
-                    pathToExcutable = pathToExcutable + directories[i];
+                    pathToExcutable = pathToExcutable + directories[i] + "/sample/...";
                 }
             }
         }
